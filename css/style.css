@@ -1,0 +1,56 @@
+body{
+     margin: 0 0 0 0;
+}
+
+
+
+.header{
+    width: 100%;
+    height: 850px;
+    overflow: hidden;
+    margin: 0 0 0 0;
+}
+
+
+img.head-back{
+    width: inherit;    
+    margin: 0 0 0 0;
+}
+
+.title-text{
+
+    position: absolute;
+    top: 0;
+    left:100px;
+    color: white;
+    
+}
+
+.nav-bar{
+    width: 100%;
+    height: 50px;
+    /*size specificaions of the background black tape*/
+    text-align: center;
+    background-color: black;
+    position:absolute;
+    top:70px;
+}
+    .nav-bar ul{
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        /*above code is to center the links*/
+        list-style-type: none;
+        color: white;
+    }
+        .nav-bar li{
+            float: left;
+            display: inline;
+            padding: 15px 75px
+
+        }
+
+            .nav-bar a{
+                text-decoration: none;
+                color: white;
+            }
